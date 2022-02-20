@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/ctlfroteis/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "2f3e5267-5905-0000-a0ef-0b439d0a417d",
+    "name": "Test_ElementNotification",
+    "key": "UAT"
+  }
+}
