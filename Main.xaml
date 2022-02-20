@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="968,1706" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="968,1470" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -82,10 +82,9 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="554,1641" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="554,1405" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="variable1" />
     </Sequence.Variables>
@@ -94,13 +93,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UI" sap:VirtualizedContainerService.HintSize="512,1549" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a98bc9d1-8765-4df9-801b-2e7d6296da67" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UI" sap:VirtualizedContainerService.HintSize="512,1313" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a98bc9d1-8765-4df9-801b-2e7d6296da67" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="478,1095" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap:VirtualizedContainerService.HintSize="478,1097" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Default="C:\Data\Trainings\Uipath-2021\projects\BIC\Output\ElVw_" Name="OutputPath" />
             </Sequence.Variables>
@@ -136,7 +135,7 @@
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable DesignTimeRectangle="136, 591, 1012, 17" ElementType="InputBox" FriendlyName="'ElementVw_Download.xlsx'" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="0eaf0219-b15d-4abe-abf3-5dbb61f78bb5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAA/gAAAAVCAYAAADy6UVWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANpSURBVHhe7dwxbtswFAbgnqsH6hl6DB8jJ/CYUwToEKBblyBTpm6qSIkySVGyrLhQk34f8BCLEvksb79o50sHAAAAfHgCPgAAAHwCzYD/5fsPpW4uAAAAjiPgq7sVAAAAxxHw1d0KAACA4ywE/F/deXydnB9CiAvjv7vTaR7ujqpvT133/PizHH9467qnX+XYTTW//1mPv1b3/oxvXW9/fwAAAI6zEvBbIe/e4XNPVe+hEeZD6B8eSOyt+j7Dce9dDw221r0/41vX298fAACA43z8gH967Z67t+5bcT4/3lON+5z1+Vt178/41vX29wcAAOA47wv4MfQmKfyO1zxczoXd9K+Pv8ej6uvua2s8vo3jaU4Yz8Qd9Z/d6SXbsc929Mud/MZ7X9yRr66NVfUp3vdlfFvPpftbmDNeE1zWHnpN8nvJ5jw/vi7ey9QzfGYvr93XeC7vP1yXnB/W5gn4AAAAR9r4G/wqeMfwVwXRPuwVITwFvxACe0UobK7XWCOF1rU5fYWHB2n9ImCHedkazy+X6/I585r3KAP+8P6mPjFQj9dv6rn1/lb6xGtTLc8ZHqwszQk90998vHEvV+cJ+AAAAEfav4Nf7SxHMQzWc1eOd61Rn+srrBMfKIQQnp2bxkPw78fDtwpa182q0SOfE993GW6nBwubem68v7U+4Tg+GEiyOWP/+dpVjfOn9WLV/fNvF4zVnCfgAwAAHOmdAb8Mn7Nrrh3vWqM+F2oMz1OYrsZP/ZwpZPf9ZiG4rkaP/L023vcleG/pWa+fH2ev1/oU51LPcby4t8a9pLoW8Mex9POK6ToBHwAA4J/zjt/gh9eN3d3Z3LXjPWvU54ZKIbReK34tvg+/aTwcn5/STwHKNS7V6p8H2uq4CuLXe7bWb93fSp8QslOQj+PtOcPnsrR2WCv9Ha4vr7lUvKf4/pfmCfgAAABH2vgb/BScq/AXg2Xm1q/o71wj7GJfrs3XyecsjC9dV1Tol1taN6nOX+25dn/VucU+Ydd+HH55685pBz+cG3fYg/Kf7KW1h7n5A4jmP9nL1hn+R8DaPAEfAADgSAsBfwhsSt1SAAAAHOc/D/hht7pWfu1cbS8AAACOYwdf3a0AAAA4TjPgAwAAAB+LgA8AAACfgIAPAAAAn4CADwAAAB9e1/0BDPOZOZZQpVcAAAAASUVORK5CYII=" InformativeScreenshot="32b2155d6f1c65b93b1ef214082e7c71.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="18, 588, 115, 23" ElementType="Text" FriendlyName="'File name'" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' automationid='' check:text='File name:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHcAAAAbCAYAAABGDxCrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVGhD7ZXhjcMgDEaZinkY4zZgGHbh763BBi5OQ2pcp2lPp0pxvkpPAmIM8isQWmsEfAK5joFch4Sf3zvWR3BuWCz/INchkOsYyHUM5DoGch1zQbmFUggUBDFXajVTDJFyHTGjfV4uKvdIHOSeFMh1zJ44Oa5ilit7XOOJyjSPWeNzmq/69XtJjycgpDLPKY/cqTSqOZo5zD2Uvl7MVEeMAm9uh4u6L1e2O72gU9FlziGOi/7qT7Dl7XOGnGWOEDrl2NkDx0CuRBXKHBft6cSsbKfPmmv0V3F3jDWOcry1h2cg1xzXhbVOoeRIzJhfKUdjjY9yvA/kmuO6rd6/J3RO0ZdX5yLJWuOoz21jD7iWNbqI1riK0dfiR9cyn9Z1XkyU/nJyuW/tAXKvC+T+A9tpMrDivwXkOgZyHQO5joFcx0CuY1jugvUR+ABy3dLoBu+POy3AEiIIAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -152,7 +151,7 @@
                 </ActivityAction>
               </ui:GetActiveWindow.Body>
             </ui:GetActiveWindow>
-            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="436,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="436,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="436,61" sap2010:WorkflowViewState.IdRef="WriteLine_1">
               <InArgument x:TypeArguments="x:String">
                 <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">OutputPath+DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss")+".xlsx"</mca:CSharpValue>
